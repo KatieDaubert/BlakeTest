@@ -1,36 +1,54 @@
+
 body {
-	background-color: darkslategrey;
-	font-size: 100%
+	background-color: #001B13;
+	background-image: url("crumpled-rice-paper.jpg");
+	font-size: 100%;
+	
 }
 
 #title {
-	color: white;
 	font-size: 1.5em;
-	font-family: sans-serif;
+	font-family: 'Homemade Apple', cursive;
+	margin: 2em;
+	padding-left: 2em;
+	
 }
 
 #mainColumn {
 	margin: 0 auto;
 	width: 90%;
+	
 }
 #nav {
 	width: 20%;
 	float: left;
-	background: lightgrey;
+	background-color: #AD5821;
 	padding: 0 .25em;
+	float: right;
+	border: 5px solid gray;
+	
 }
 #nav h2{
 	font-size:1em;
 }
+
+#nav a:link {
+    color: #E3D9A8;
+ 
+}
+ 
 #content {
 	float: left;
 	width: 75%;
-	background-color: white;
+	background-color: #788F7B;
 	padding: 1em;
 	font-family: serif;
+	border: 5px solid gray;
+	 
 }
 #illustration {
 	text-align: center;
 	float: right;
 }
+
 
